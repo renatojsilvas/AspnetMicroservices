@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{C5E33910-585A-4E5B-953A-D28A42ECEF1B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{5294B746-F814-4949-B2B8-8207E74DC007}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{CE97B50A-DB51-415B-8E8D-5FDF7B47490E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{66579B5E-350F-443D-925C-99D15B9EECA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{BED2FF91-00BC-4987-A706-0CA034B318BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{DDE5CBB9-1B43-4E33-8B91-E09AAD6ABD59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,13 +18,13 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BED2FF91-00BC-4987-A706-0CA034B318BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BED2FF91-00BC-4987-A706-0CA034B318BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BED2FF91-00BC-4987-A706-0CA034B318BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BED2FF91-00BC-4987-A706-0CA034B318BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE5CBB9-1B43-4E33-8B91-E09AAD6ABD59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE5CBB9-1B43-4E33-8B91-E09AAD6ABD59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE5CBB9-1B43-4E33-8B91-E09AAD6ABD59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE5CBB9-1B43-4E33-8B91-E09AAD6ABD59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CE97B50A-DB51-415B-8E8D-5FDF7B47490E} = {C5E33910-585A-4E5B-953A-D28A42ECEF1B}
-		{BED2FF91-00BC-4987-A706-0CA034B318BA} = {CE97B50A-DB51-415B-8E8D-5FDF7B47490E}
+		{66579B5E-350F-443D-925C-99D15B9EECA5} = {5294B746-F814-4949-B2B8-8207E74DC007}
+		{DDE5CBB9-1B43-4E33-8B91-E09AAD6ABD59} = {66579B5E-350F-443D-925C-99D15B9EECA5}
 	EndGlobalSection
 EndGlobal
